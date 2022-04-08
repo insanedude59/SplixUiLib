@@ -147,7 +147,7 @@ function library:new(props)
 			DisplayOrder = 9999,
 			ResetOnSpawn = false,
 			ZIndexBehavior = "Global",
-			Parent = cre
+			Parent = game:GetService("Players").LocalPlayer.PlayerGui
 		}
 	)
 	--
